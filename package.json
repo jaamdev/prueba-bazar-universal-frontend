@@ -1,0 +1,34 @@
+{
+	"name": "prueba-bazar-universal-frontend",
+	"description": "Esta es la parte frontend de la prueba técnica.",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js,.jsx",
+		"lintear": "npm run lint && npm run format"
+	},
+	"dependencies": {
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-router-dom": "6.22.3"
+	},
+	"devDependencies": {
+		"@types/react": "18.2.75",
+		"@types/react-dom": "18.2.24",
+		"@vitejs/plugin-react-swc": "3.6.0",
+		"eslint": "8.57.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-config-standard": "17.1.0",
+		"eslint-plugin-import": "2.29.1",
+		"eslint-plugin-n": "16.6.2",
+		"eslint-plugin-promise": "6.1.1",
+		"eslint-plugin-react": "7.34.1",
+		"prettier": "3.2.5",
+		"vite": "5.2.8"
+	}
+}
